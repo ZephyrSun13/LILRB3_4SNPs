@@ -3,10 +3,16 @@
 Codes to run LILRB3_4SNPs and generate figures for publication[1].
 
 1.Genotyping_RNAseq: Genotyping with RNAseq sequencing data.
+    Data can be downloaded from GSE252272.
+    Dependent softwares: star/2.6.1d; samtools/1.9; subread/1.6.3; picard/1.93; gatk/4.2.0.0; R/4.0.3; bcftools/1.9; 
 
 2.Allele_specific_expression: quantifying allele-specific expression with GATK ASEReadCounter.
-
+    Data can be downloaded from GSE252272.
+    Dependent softwares:  BEDTools/2.29.0; star/2.6.1d; picard/2.22.3; samtools/1.9; R/4.0.3
+  
 3.Target_DNAseq: Aligning and genotyping with targeted DNAseq data around the LILRB3-4SNPs region.
+    Data can be downloaded from GSE252273.
+    Dependent softwares:  R/4.0.3; Seurat/4.1.1; 
 
 4.SingleCell: Single-cell analysis on the PBMC data.
 
