@@ -47,8 +47,21 @@ Codes to run LILRB3_4SNPs and generate figures for publication[1].
 
     Data is available upon request for BioMe or All-of-Us commitee.
 
-    Dependent software: R/4.0.3 (Metafor, Survival, )
+    Dependent software: R/4.0.3 (packages: Metafor/2.4, Survival/3.2).
+    
+    BioMe: Codes for working on BioMe biobank
 
-### 5.Figures: Codes to generate figures for publication, the corresonding data is availabe upon request to the corresponding author.
+        lilr007.clean.sh: major code fro extracting genotyping and phenotyping data and performing survival and phenotype associationg analysis.
+            stat.r:    Basic statistic for LILRB3-4SNPs and comparison with APOL1 genotype.
+            genoClassify.r:    defining risk, non-risk patients for APOL1 G1 G2, LILRB3-4SNPs and combined genotypes.
+            biomeDiaGN.r: Scrrening association with phenotypes for provided SNP, in dominant, recession or additive model for the race group provided.
+            eGFR.suv.Steve.r:    Identifying the first date for eGFR decline (defined by given parameters) and perform survival analysis on given genotypes.
+            meta.r: meta analysis on two biobanks.
+    AllOfUs: Codes for working on All-of-Us biobank
+            aou.sh:     scripts to retreive the Genotyping data for LILRB3-4SNPs.
+            stat_All.r:    defining risk, non-risk patients for APOL1 G1 G2, LILRB3-4SNPs and combined genotypes.    
+            eGFR.steve.r:    Identifying the first date for eGFR decline (defined by given parameters) and perform survival analysis on given genotypes.
+
+### 6.Figures: Codes to generate figures for publication, the corresonding data is availabe upon request to the corresponding author.
 
 [1] Sun, Z., Yi, Z., Wei, C., Wang, W., Cravedi, P., Tedla, F., Ward, S.C., Azeloglu, E., Schrider, D.R., Li, Y. and Ali, S., 2024. Genetic polymorphisms of Leukocyte Immunoglobulin-Like Receptor B3 (LILRB3) gene in African American kidney transplant recipients are associated with post-transplant graft failure. bioRxiv, pp.2024-02.
